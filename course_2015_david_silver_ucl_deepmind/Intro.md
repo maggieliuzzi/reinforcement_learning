@@ -45,10 +45,10 @@ Eg.
         Reward Model: expected reward given current state and action (Rs^a = E[R | S=s, A=a]
 
 Eg. Maze:
-    Rewards: -1 per time step (to make it do it as quickly as possible), Actions: N, E, S, W, States: agent's location in grid
-    Policy: f(s) for each state (eg. if in this state, go left, if in this one, go right) (mapped using a data structure) (represented with arrows in diagram)
-    Value Function: helps compare actions (eg. at intersections)
-    Model: short-term, one-step prediction, immediate reward from each state is -1 (in action-dependent rewards, each action is given a different reward)
+    - Rewards: -1 per time step (to make it do it as quickly as possible) | Actions: N, E, S, W | States: agent's location in grid
+    - Policy: f(s) for each state (eg. if in this state, go left, if in this one, go right) (mapped using a data structure) (represented with arrows in diagram)
+    - Value Function: helps compare actions (eg. at intersections)
+    - Model: short-term, one-step prediction, immediate reward from each state is -1 (in action-dependent rewards, each action is given a different reward)
 
 ## Categorisation of RL agents
 - Value Based: stores value function (policy is implicit) + model
