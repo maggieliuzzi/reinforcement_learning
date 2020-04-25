@@ -29,20 +29,16 @@ Eg.
 ### Components 
 (Not all are required)
 
-- Policy
-    Map from state to action
+- Policy: map from state to action
     - Deterministic (a = f(s))
     - Stochastic: probability of taking a particular action given being in a specific state (f(a | s) = P[A=a | S=s]) (learning from experience so as to maximise reward) (useful for random exploration decisions to see more of the state space)
 
-- Value Function
-    Prediction of future reward if we follow this behaviour, useful for comparison (evaluation of the goodness of states)
+- Value Function: prediction of future reward if we follow this behaviour, useful for comparison (evaluation of the goodness of states)
     Vf(s) = Ef[Rt + y*Rt+1 + y^2*Rt+2 + ... | St=s]. Discounting factor to give more prominence to recent rewards (no need for a discrete horizon) (risk is implicitly taken into account but is sometimes added explicitly for some trading applications)
     - State Value Function (V)
     - Action Value Function (Q)
 
-- Model
-    (Optional: many model-free)
-    Prediction of future behaviour of environment
+- Model: prediction of future behaviour of environment (optional: many model-free)
     - Transitions: prediction of next state (i.e. dynamics, eg. position, angle of a helicopter)
         State Transition Model: probability of being in next state given current/previous state and action (Pss'^a = P[S'=s' | S=s, A=a])
     - Rewards: prediction of next, immediate reward
@@ -63,25 +59,22 @@ Eg. Maze:
 
 
 ## Key Problems
-- Learning vs Planning
-    How to improve policy to maximise future reward.
-    Learning:
+- Learning vs Planning: how to improve policy to maximise future reward.
+    - Learning:
         Trial and error
         Environment initially unknown, a lot of interaction with the environment
-    Planning:
+    - Planning:
         Known (perfect) model of the environment (eg. it is given differential equations describing wind)
         Internal computations (often using dynamic programming, possibly doing look-ahead/tree search), delayed external interaction
         (Can be used as a first step for Learning as well)
-- Exploration and Exploitation
-    Trade-off, so a balance is required
-    Exploitation:
+- Exploration and Exploitation: trade-off, so a balance is required
+    - Exploitation:
         Already discovered information, possibly suboptimal reward (eg. advertiser showing their most successful ad, drilling in a known location, going to your favourite restaurant, playing a known good move in a game)
-    Exploration:
+    - Exploration:
         Often losing immediate reward in order to get more environment information
-- Prediction and Control
-    Prediction: evaluating future given a policy (eg. the current one)
-    Control: optimising future, finding the best policy
-    (Prediction helps evaluate all policies to then choose the best one)
+- Prediction and Control: prediction helps evaluate all policies to then choose the best one, but they are separate problems
+    - Prediction: evaluating future given a policy (eg. the current one)
+    - Control: optimising future, finding the best policy
 
 
 ## Differences between RL and other Machine Learning paradigms
