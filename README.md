@@ -95,7 +95,7 @@
   - https://twimlai.com/twiml-talk-029-robotic-perception-control-chelsea-finn/
   
 
-## Practical Implementations
+## Implementation Tools
 
 - OpenAI's Spinning Up in Deep RL
   &nbsp; https://openai.com/blog/spinning-up-in-deep-rl/
