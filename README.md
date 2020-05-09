@@ -3,6 +3,7 @@
 ## Fundamentals
 
 - David Silver's UCL Course
+  &nbsp; https://www.youtube.com/playlist?list=PLbWDNovNB5mqFBgq7i3MY6Ui4zudcvNFJ
 
 ## Deep Reinforcement Learning (Deep RL)
 
