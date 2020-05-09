@@ -8,8 +8,6 @@
 
 - Deepmind & UCL's Advanced Deep Learning and Reinforcement Learning course
   &nbsp; https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs
-- OpenAI's Spinning Up in Deep RL
-  &nbsp; https://openai.com/blog/spinning-up-in-deep-rl/
 
 ## Latest Trends
 
@@ -25,6 +23,9 @@
 
 - Network Pruning/ Policy Pruning for Deep RL
 
+#### &nbsp;&nbsp; Other Concepts
+
+- Curriculum Learning
 
 ### Courses
 
@@ -44,6 +45,20 @@
 
 - Deep Visual Foresight for Planning Robots
   &nbsp; http://phys.csail.mit.edu/papers/6.pdf
+
+#### &nbsp;&nbsp; Summaries
+
+- Multi-Agent Hide and Seek
+  &nbsp; https://www.youtube.com/watch?v=Lu56xVlZ40M
+
+- Self-Supervised Deep RL
+  &nbsp; https://www.youtube.com/watch?v=txHQoYKaSUk
+
+- Locomotion
+  &nbsp; https://www.youtube.com/watch?v=14zkfDTN_qo
+
+- OpenAI's Safety Gym
+  &nbsp; https://www.youtube.com/watch?v=_s7Bg6yVOdo
 
 ### Blogs & Presentations
 
@@ -78,3 +93,16 @@
 - Chelsea Finn
   - https://twimlai.com/twiml-talk-335-trends-in-reinforcement-learning-with-chelsea-finn/
   - https://twimlai.com/twiml-talk-029-robotic-perception-control-chelsea-finn/
+  
+
+## Practical Implementations
+
+- OpenAI's Spinning Up in Deep RL
+  &nbsp; https://openai.com/blog/spinning-up-in-deep-rl/
+  
+- OpenAI's Gym
+  &nbsp; https://gym.openai.com/
+
+- TensorFlow Agents (tf_agents)
+  &nbsp; https://www.tensorflow.org/agents
+ 
