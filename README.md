@@ -106,3 +106,14 @@
 - TensorFlow Agents (tf_agents)
   &nbsp; https://www.tensorflow.org/agents
  
+- Google Dopamine
+  &nbsp; https://github.com/google/dopamine
+  &nbsp; https://medium.com/the-21st-century/google-dopamine-new-rl-framework-f84a35b7fb3f
+  
+- Facebook's Higher
+  &nbsp; https://github.com/facebookresearch/higher
+  
+- Omniglot Dataset
+  &nbsp; https://www.tensorflow.org/datasets/catalog/omniglot
+  &nbsp; https://github.com/brendenlake/omniglot
+  &nbsp; https://www.groundai.com/project/the-omniglot-challenge-a-3-year-progress-report/1
