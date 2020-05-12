@@ -47,6 +47,9 @@
 - Deep Visual Foresight for Planning Robots
   &nbsp; http://phys.csail.mit.edu/papers/6.pdf
 
+- More
+  &nbsp; https://twimlai.com/twiml-talk-217-trends-in-reinforcement-learning-with-simon-osindero/
+
 #### &nbsp;&nbsp; Summaries
 
 - Multi-Agent Hide and Seek
