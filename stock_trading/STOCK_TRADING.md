@@ -31,7 +31,7 @@ N^3 possible actions (27 in this case, since N=3). One action will mean performi
 - Model (eg. neural network) to approximate Q values
 - Given state decide action to perform (calculates Q(s,a) and takes the argmax over all possible actions)
 - Gets a random sample from the replay buffer and uses it to calculate a supervised learning dataset which consists of input and target pairs to then train our model by running one iteration of gradient descent over a batch of data
-- During training, the agent stores states, actions and rewards and perform Q-Learning updates in order to train the Q function approximator
+- During training, the agent adds the latest transition (i.e. state, action, reward, done) to its replay buffer and performs Q-Learning updates (i.e. one step of gradient descent) in order to train the Q function approximator
 
 ## Replay Buffer
 During training, we sample "transitions" from the replay buffer randomly, calculate input-target pairs and do one step of gradient descent.
