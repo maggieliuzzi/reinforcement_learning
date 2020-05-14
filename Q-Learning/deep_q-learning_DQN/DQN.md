@@ -4,17 +4,17 @@
 
 ## Prediction problem
 
-We are given a policy
-Target: estimation of the return (r + gamma * V(s'))
-Prediction: V(s) = W^T*s + b 
-Parameters to update: weight matrix (W) and bias vector (b) (i.e. the linear regression parameters - use squared error and do gradient descent to update these parameters)
+We are given a policy.
+Target: estimation of the return (r + gamma * V(s')).
+Prediction: V(s) = W^T*s + b.
+Parameters to update: weight matrix (W) and bias vector (b) (i.e. the linear regression parameters - use squared error and do gradient descent to update these parameters).
 
 ## Control problem
 
-Q is a model prediction (model.predict())
-Target: y = r + gamma * max(a')Q(s',a')  (read: "max over all actions a' of Q(s',a')")
-Prediction: Q(s,a)
-Parameters to update: W, b
+Q is a model prediction (model.predict()).
+Target: y = r + gamma * max(a')Q(s',a')  (read: "max over all actions a' of Q(s',a')").
+Prediction: Q(s,a).
+Parameters to update: W, b.
 
 ## Deep Q-Learning
 
