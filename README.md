@@ -22,6 +22,8 @@
 
 - Self-Supervised Learning
 
+- Multi-Objective Reinforcement Learning (MORL)
+
 - Network Pruning/ Policy Pruning for Deep RL
 
 #### &nbsp;&nbsp; Other Concepts
