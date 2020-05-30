@@ -24,6 +24,8 @@
 
 - Multi-Objective Reinforcement Learning (MORL)
 
+- Distributional Reinforcement Learning
+
 - Network Pruning/ Policy Pruning for Deep RL
 
 #### &nbsp;&nbsp; Other Concepts
