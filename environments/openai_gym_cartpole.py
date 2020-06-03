@@ -4,6 +4,7 @@ from builtins import range
 import numpy as np
 import matplotlib.pyplot as plt
 import gym
+from gym import wrappers
 
 
 NUM_WEIGHTS = 10
@@ -62,6 +63,7 @@ def random_search(env, num_weights, num_episodes):
 if __name__ == '__main__':
 
 	env = gym.make('CartPole-v0')
+	env = wrappers.Monitor(env, 'videos')
 
 	num_weights = NUM_WEIGHTS
 	num_episodes = NUM_EPISODES
