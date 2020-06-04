@@ -1,4 +1,9 @@
 # The base of this script was sourced from "Advanced AI: DRL with Python" by LazyProgrammer
+'''
+Random Search:
+Choosing random weight vectors.
+'''
+
 from __future__ import print_function, division
 from builtins import range
 import numpy as np
@@ -48,7 +53,7 @@ def random_search(env, num_weights, num_episodes):
 	best = 0
 	params = None
 	for t in range(num_weights):
-		new_params = np.random.random(4)*2 - 1
+		new_params = np.random.random(4)*2 - 1  # choosing random weight vectors
 		avg_length = play_multiple_episodes(env, num_episodes, new_params)
 		episode_lengths.append(avg_length)
 
