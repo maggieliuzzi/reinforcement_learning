@@ -4,11 +4,16 @@
 
 - David Silver's UCL Course
   &nbsp; https://www.youtube.com/playlist?list=PLbWDNovNB5mqFBgq7i3MY6Ui4zudcvNFJ
+- LazyProgrammer's Udemy Course
+  &nbsp; https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python
 
 ## Deep Reinforcement Learning (Deep RL)
 
 - Deepmind & UCL's Advanced Deep Learning and Reinforcement Learning course
   &nbsp; https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs
+- LazyProgrammer's Udemy Courses
+  &nbsp; https://www.udemy.com/course/deep-reinforcement-learning-in-python
+  &nbsp; https://www.udemy.com/course/cutting-edge-artificial-intelligence
 
 ## Latest Trends
 
